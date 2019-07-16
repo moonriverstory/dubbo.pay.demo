@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-api" />
+        <module name="order-provider" />
+        <module name="ssm" />
+        <module name="user-api" />
+        <module name="user-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-order" target="1.8" />
+      <module name="dubbo-user" target="1.8" />
+      <module name="dubbo.pay.demo" target="1.8" />
+      <module name="order-api" target="1.8" />
+      <module name="order-provider" target="1.8" />
+      <module name="ssm" target="1.8" />
+      <module name="user-api" target="1.8" />
+      <module name="user-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
