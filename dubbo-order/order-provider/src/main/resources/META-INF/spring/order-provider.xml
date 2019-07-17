@@ -30,9 +30,12 @@
     </dubbo:service>
 
     <!--服务发布的配置，需要暴露的服务接口-->
-    <dubbo:service interface="dubbo.order.IOrderServices" ref="orderService2" protocol="dubbo" version="2.0"/>
+    <!--<dubbo:service interface="dubbo.order.IOrderServices" ref="orderService2" protocol="dubbo" version="2.0"/>-->
 
     <dubbo:service interface="dubbo.order.IOrderQueryService" ref="orderQueryService" protocol="dubbo" version="1.0"/>
+
+    <!-- 服务 -->
+    <bean id="greetingService" class="dubbo.order.OrderServiceImpl" />
 
     <import resource="classpath*:META-INF/client/user-customer.xml"/>
 
