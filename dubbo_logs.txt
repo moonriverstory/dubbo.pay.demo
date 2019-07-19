@@ -504,3 +504,544 @@ Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out
 
 
 -------------
+3.
+
+
+D:\Programs\apache-tomcat-7\bin\catalina.bat run
+[2019-07-18 05:24:55,896] Artifact ssm:war exploded: Waiting for server connection to start artifact deployment...
+Using CATALINA_BASE:   "C:\Users\admin\.IntelliJIdea2017.2\system\tomcat\Unnamed_dubbo_pay_demo"
+Using CATALINA_HOME:   "D:\Programs\apache-tomcat-7"
+Using CATALINA_TMPDIR: "D:\Programs\apache-tomcat-7\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jdk1.8.0_144"
+Using CLASSPATH:       "D:\Programs\apache-tomcat-7\bin\bootstrap.jar;D:\Programs\apache-tomcat-7\bin\tomcat-juli.jar"
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.81
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 11 2017 10:21:27 UTC
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.81.0
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\admin\.IntelliJIdea2017.2\system\tomcat\Unnamed_dubbo_pay_demo
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\Programs\apache-tomcat-7
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\admin\.IntelliJIdea2017.2\system\tomcat\Unnamed_dubbo_pay_demo\conf\logging.properties
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=UTF-8
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote=
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\Programs\apache-tomcat-7\endorsed
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\admin\.IntelliJIdea2017.2\system\tomcat\Unnamed_dubbo_pay_demo
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\Programs\apache-tomcat-7
+七月 18, 2019 5:24:56 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\Programs\apache-tomcat-7\temp
+七月 18, 2019 5:24:56 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+七月 18, 2019 5:24:56 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+七月 18, 2019 5:24:57 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+七月 18, 2019 5:24:57 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8080"]
+七月 18, 2019 5:24:57 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8009"]
+七月 18, 2019 5:24:57 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1030 ms
+七月 18, 2019 5:24:57 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 18, 2019 5:24:57 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.81
+七月 18, 2019 5:24:57 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8080"]
+七月 18, 2019 5:24:57 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8009"]
+七月 18, 2019 5:24:57 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 48 ms
+Connected to server
+[2019-07-18 05:24:57,491] Artifact ssm:war exploded: Artifact is being deployed, please wait...
+七月 18, 2019 5:24:57 下午 org.apache.catalina.session.ManagerBase setMaxInactiveInterval
+警告: Manager.setMaxInactiveInterval() is deprecated and calls to this method are ignored. Session timeouts should be configured in web.xml or via Context.setSessionTimeout(int timeoutInMinutes)
+七月 18, 2019 5:24:57 下午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(D:\IdeaProject\DubboDemo\ssm\target\ssm\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+七月 18, 2019 5:24:57 下午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(D:\IdeaProject\DubboDemo\ssm\target\ssm\WEB-INF\lib\servlet-api-2.5-20081211.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+七月 18, 2019 5:24:59 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/IdeaProject/DubboDemo/ssm/target/ssm/WEB-INF/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/IdeaProject/DubboDemo/ssm/target/ssm/WEB-INF/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+2019-07-18 17:25:00,046 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2019-07-18 17:25:00,131 [INFO ] org.springframework.web.context.support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Jul 18 17:25:00 CST 2019]; root of context hierarchy
+2019-07-18 17:25:00,173 [INFO ] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [D:\IdeaProject\DubboDemo\ssm\target\ssm\WEB-INF\classes\spring\applicationCommons.xml]
+2019-07-18 17:25:00,325 [INFO ] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [D:\IdeaProject\DubboDemo\ssm\target\ssm\WEB-INF\classes\spring\applicationContext.xml]
+2019-07-18 17:25:00,403 [INFO ] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [D:\IdeaProject\DubboDemo\ssm\target\ssm\WEB-INF\classes\spring\applicationDubbo.xml]
+2019-07-18 17:25:00,424 [INFO ] com.alibaba.dubbo.common.logger.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2019-07-18 17:25:00,439 [INFO ] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [jar:file:/D:/IdeaProject/DubboDemo/ssm/target/ssm/WEB-INF/lib/order-api-1.0.0.jar!/META-INF/client/order-customer.xml]
+2019-07-18 17:25:00,463 [INFO ] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [jar:file:/D:/IdeaProject/DubboDemo/ssm/target/ssm/WEB-INF/lib/user-api-1.0.0.jar!/META-INF/client/user-customer.xml]
+2019-07-18 17:25:00,569 [INFO ] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [application.properties]
+2019-07-18 17:25:00,848 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'taskExecutor'
+2019-07-18 17:25:01,050 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1004 ms
+七月 18, 2019 5:25:01 下午 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Attached to RedisSessionHandlerValve
+七月 18, 2019 5:25:01 下午 com.radiadesign.catalina.session.RedisSessionManager initializeSerializer
+信息: Attempting to use serializer :com.radiadesign.catalina.session.JavaSerializer
+七月 18, 2019 5:25:01 下午 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Will expire sessions after 1800 seconds
+2019-07-18 17:25:01,094 [INFO ] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'springmvc': initialization started
+2019-07-18 17:25:01,097 [INFO ] org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Thu Jul 18 17:25:01 CST 2019]; parent: Root WebApplicationContext
+2019-07-18 17:25:01,097 [INFO ] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/mvc-dispatcher-servlet.xml]
+2019-07-18 17:25:01,333 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Load registry store file d:\dubbo.cache, data: {dubbo.order.IOrderServices:1.0=empty://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=configurators&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=3324&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563440060344&version=1.0 empty://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=3324&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563440060344&version=1.0 dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0, dubbo.user.IUserService=empty://10.73.158.53/dubbo.user.IUserService?application=ssm&category=configurators&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=3324&revision=1.0.0&side=consumer&timestamp=1563440076198 empty://10.73.158.53/dubbo.user.IUserService?application=ssm&category=routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=3324&revision=1.0.0&side=consumer&timestamp=1563440076198 dubbo://10.73.158.53:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=21036&side=provider&timestamp=1563440018291}, dubbo version: 2.5.3, current host: 127.0.0.1
+2019-07-18 17:25:01,356 [INFO ] org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:host.name=Cipher
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_144
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_144\jre
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=D:\Programs\apache-tomcat-7\bin\bootstrap.jar;D:\Programs\apache-tomcat-7\bin\tomcat-juli.jar
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin;D:\Programs\apache-maven-3.5.0\bin;%ERLANG_HOME%\bin;C:\Program Files (x86)\RabbitMQ Server\rabbitmq_server-2.8.0\sbin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\TortoiseSVN\bin;D:\Programs\Instant Client\bin;C:\WINDOWS\System32\OpenSSH\;D:\Programs\Git\cmd;D:\Programs\gradle\gradle-4.10.2\bin;;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Programs\Fiddler;.
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=D:\Programs\apache-tomcat-7\temp
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2019-07-18 17:25:01,363 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+2019-07-18 17:25:01,364 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:user.name=admin
+2019-07-18 17:25:01,364 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\admin
+2019-07-18 17:25:01,364 [INFO ] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=D:\Programs\apache-tomcat-7\bin
+2019-07-18 17:25:01,365 [INFO ] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=106.14.5.254:2181,106.14.5.254:2182 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@77e6b897
+2019-07-18 17:25:01,388 [INFO ] org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
+2019-07-18 17:25:01,394 [INFO ] org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-18 17:25:01,403 [INFO ] org.apache.zookeeper.ClientCnxn - Socket connection established to 106.14.5.254/106.14.5.254:2181, initiating session
+2019-07-18 17:25:01,417 [INFO ] org.apache.zookeeper.ClientCnxn - Session establishment complete on server 106.14.5.254/106.14.5.254:2181, sessionid = 0x16bf9936fb00015, negotiated timeout = 30000
+2019-07-18 17:25:01,419 [INFO ] org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
+2019-07-18 17:25:01,440 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Register: consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=consumers&check=false&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,505 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Subscribe: consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,671 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, urls: [dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0, empty://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=configurators&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, empty://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,821 [INFO ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Successed connect to server /10.73.158.53:20880 from NettyClient 10.73.158.53 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x643fbad4, /10.73.158.53:63765 => /10.73.158.53:20880]], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,822 [INFO ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Start NettyClient Cipher/10.73.158.53 connect to the server /10.73.158.53:20880, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,876 [INFO ] com.alibaba.dubbo.config.AbstractConfig -  [DUBBO] Refer dubbo service dubbo.order.IOrderServices from url zookeeper://106.14.5.254:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=ssm&check=false&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,894 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Register: consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=consumers&check=false&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:01,934 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Subscribe: consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:02,072 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, urls: [dubbo://10.73.158.53:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=21036&side=provider&timestamp=1563440018291, empty://10.73.158.53/dubbo.user.IUserService?application=ssm&category=configurators&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, empty://10.73.158.53/dubbo.user.IUserService?application=ssm&category=routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:02,076 [INFO ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Successed connect to server /10.73.158.53:20881 from NettyClient 10.73.158.53 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xb8721d01, /10.73.158.53:63766 => /10.73.158.53:20881]], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:02,076 [INFO ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Start NettyClient Cipher/10.73.158.53 connect to the server /10.73.158.53:20881, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:02,077 [INFO ] com.alibaba.dubbo.config.AbstractConfig -  [DUBBO] Refer dubbo service dubbo.user.IUserService from url zookeeper://106.14.5.254:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=ssm&check=false&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-18 17:25:02,167 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-07-18 17:25:02,225 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index/index],methods=[GET]}" onto public java.lang.String edu.controller.IndexController.index(javax.servlet.http.HttpServletRequest)
+2019-07-18 17:25:02,226 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index/login],methods=[GET]}" onto public java.lang.String edu.controller.IndexController.login()
+2019-07-18 17:25:02,226 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index/logout],methods=[GET]}" onto public java.lang.String edu.controller.IndexController.logout(javax.servlet.http.HttpServletRequest)
+2019-07-18 17:25:02,226 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index/submitLogin],methods=[POST]}" onto public edu.controller.support.ResponseData edu.controller.IndexController.submitLogin(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-07-18 17:25:02,251 [INFO ] org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2019-07-18 17:25:02,602 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Thu Jul 18 17:25:01 CST 2019]; parent: Root WebApplicationContext
+2019-07-18 17:25:02,645 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Thu Jul 18 17:25:01 CST 2019]; parent: Root WebApplicationContext
+2019-07-18 17:25:02,681 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/common/error/**] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2019-07-18 17:25:02,690 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-07-18 17:25:02,713 [INFO ] org.springframework.web.servlet.view.velocity.VelocityConfigurer - Loading Velocity config from [class path resource [velocity.properties]]
+2019-07-18 17:25:02,719 [INFO ] org.springframework.web.servlet.view.velocity.VelocityConfigurer - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2019-07-18 17:25:02,861 [INFO ] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'springmvc': initialization completed in 1767 ms
+[2019-07-18 05:25:02,878] Artifact ssm:war exploded: Artifact is deployed successfully
+[2019-07-18 05:25:02,878] Artifact ssm:war exploded: Deploy took 5,387 milliseconds
+2019-07-18 17:25:03,190 [INFO ] org.apache.velocity.tools.view.servlet.ServletToolboxManager - Using config file '/WEB-INF/toolbox.xml'
+2019-07-18 17:25:03,190 [WARN ] org.apache.velocity.tools.view.XMLToolboxManager - XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2019-07-18 17:25:03,190 [WARN ] org.apache.velocity.tools.view.servlet.ServletToolboxManager - ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+七月 18, 2019 5:25:07 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Programs\apache-tomcat-7\webapps\manager
+七月 18, 2019 5:25:07 下午 org.apache.catalina.session.ManagerBase setMaxInactiveInterval
+警告: Manager.setMaxInactiveInterval() is deprecated and calls to this method are ignored. Session timeouts should be configured in web.xml or via Context.setSessionTimeout(int timeoutInMinutes)
+七月 18, 2019 5:25:07 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+七月 18, 2019 5:25:07 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Programs\apache-tomcat-7\webapps\manager has finished in 137 ms
+2019-07-19 01:30:56,709 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, urls: [dubbo://10.73.158.53:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=21036&side=provider&timestamp=1563440018291, dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=9816&side=provider&timestamp=1563471047457], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 01:30:56,720 [ERROR] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Failed to start NettyClient Cipher/10.73.158.53 connect to the server /169.254.45.25:20881 (check == false, ignore and retry later!), cause: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:378)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:344)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:321)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:303)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:62)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.toInvokers(RegistryDirectory.java:395)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:224)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:195)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:449)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:273)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:259)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:45)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:159)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:82)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:843)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:71)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-19 01:30:58,718 [WARN ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] client reconnect to 169.254.45.25:20881 find error . url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-07-19 01:31:37,577 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, urls: [dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0, dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=10868&revision=1.0&side=provider&timeout=5000&timestamp=1563471073333&version=1.0], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 01:31:37,583 [ERROR] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Failed to start NettyClient Cipher/10.73.158.53 connect to the server /169.254.45.25:20880 (check == false, ignore and retry later!), cause: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:378)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:344)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:321)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:303)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:62)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.toInvokers(RegistryDirectory.java:395)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:224)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:195)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:449)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:273)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:259)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:45)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:159)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:82)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:843)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:71)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-19 01:31:39,585 [WARN ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] client reconnect to 169.254.45.25:20880 find error . url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-07-19 01:45:58,164 [ERROR] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] client reconnect to 169.254.45.25:20881 find error . url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-07-19 01:46:39,005 [ERROR] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] client reconnect to 169.254.45.25:20880 find error . url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-07-19 02:09:19,274 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, urls: [dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 02:09:19,305 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, urls: [dubbo://10.73.158.53:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=21036&side=provider&timestamp=1563440018291], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 02:11:01,228 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, urls: [dubbo://10.73.158.53:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=21036&side=provider&timestamp=1563440018291, dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=9816&side=provider&timestamp=1563471047457], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 02:11:01,231 [ERROR] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Failed to start NettyClient Cipher/10.73.158.53 connect to the server /169.254.45.25:20881 (check == false, ignore and retry later!), cause: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:378)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:344)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:321)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:303)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:62)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.toInvokers(RegistryDirectory.java:395)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:224)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:195)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:449)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:273)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:259)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:45)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:159)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:82)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:843)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:71)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-19 02:11:01,956 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, urls: [dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0, dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=10868&revision=1.0&side=provider&timeout=5000&timestamp=1563471073333&version=1.0], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 02:11:01,960 [ERROR] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] Failed to start NettyClient Cipher/10.73.158.53 connect to the server /169.254.45.25:20880 (check == false, ignore and retry later!), cause: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:378)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:344)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:321)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:303)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:62)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.toInvokers(RegistryDirectory.java:395)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:224)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:195)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:449)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:273)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:259)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:45)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:159)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:82)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:843)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:71)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-19 02:11:03,231 [WARN ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] client reconnect to 169.254.45.25:20881 find error . url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20881/dubbo.user.IUserService?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890) failed to connect to server /169.254.45.25:20881, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-07-19 02:11:03,961 [WARN ] com.alibaba.dubbo.remoting.transport.AbstractClient -  [DUBBO] client reconnect to 169.254.45.25:20880 find error . url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0, dubbo version: 2.5.3, current host: 10.73.158.53
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://169.254.45.25:20880/dubbo.order.IOrderServices?anyhost=true&application=ssm&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timeout=5000&timestamp=1563441901251&version=1.0) failed to connect to server /169.254.45.25:20880, error message is:Network is unreachable: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-07-19 02:13:33,269 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.user.IUserService?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=20428&revision=1.0.0&side=consumer&timestamp=1563441901890, urls: [dubbo://10.73.158.53:20881/dubbo.user.IUserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=dubbo.user.IUserService&methods=login&pid=21036&side=provider&timestamp=1563440018291], dubbo version: 2.5.3, current host: 10.73.158.53
+2019-07-19 02:13:33,287 [INFO ] com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry -  [DUBBO] Notify urls for subscribe url consumer://10.73.158.53/dubbo.order.IOrderServices?application=ssm&category=providers,configurators,routers&dubbo=2.5.3&interface=dubbo.order.IOrderServices&methods=doOrder&pid=20428&protocol=dubbo&revision=1.0.0&side=consumer&timestamp=1563441901251&version=1.0, urls: [dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&dubbo=2.5.3&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0], dubbo version: 2.5.3, current host: 10.73.158.53
+
+
+-------------
+4.
+
+2019-07-18 16:54:45,005 WARN [com.alibaba.dubbo.remoting.transport.AbstractServer] -  [DUBBO] All clients has discontected from /10.73.158.53:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+2019-07-18 16:54:45,006 INFO [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol] -  [DUBBO] disconected from /10.73.158.53:63164,url:dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2019-07-19 14:24:55,010 WARN [com.alibaba.dubbo.remoting.transport.AbstractServer] -  [DUBBO] All clients has discontected from /10.73.158.53:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+2019-07-19 14:24:55,062 INFO [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol] -  [DUBBO] disconected from /10.73.158.53:63765,url:dubbo://10.73.158.53:20880/dubbo.order.IOrderServices?anyhost=true&application=order-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=dubbo.order.IOrderServices&loadbalance=random&methods=doOrder&pid=9908&revision=1.0&side=provider&timeout=5000&timestamp=1563439997297&version=1.0, dubbo version: 2.5.3, current host: 127.0.0.1
+[main-SendThread(106.14.5.254:2181)] INFO org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x16bf9936fb00012, likely server has closed socket, closing socket connection and attempting reconnect
+2019-07-19 17:23:31,204 INFO [org.I0Itec.zkclient.ZkClient] - zookeeper state changed (Disconnected)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2182. Will not attempt to authenticate using SASL (unknown error)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 15578ms for sessionid 0x16bf9936fb00012, closing socket connection and attempting reconnect
+[main-SendThread(106.14.5.254:2181)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2181. Will not attempt to authenticate using SASL (unknown error)
+[main-SendThread(106.14.5.254:2181)] WARN org.apache.zookeeper.ClientCnxn - Session 0x16bf9936fb00012 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2182. Will not attempt to authenticate using SASL (unknown error)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 15804ms for sessionid 0x16bf9936fb00012, closing socket connection and attempting reconnect
+[main-SendThread(106.14.5.254:2181)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2181. Will not attempt to authenticate using SASL (unknown error)
+[main-SendThread(106.14.5.254:2181)] WARN org.apache.zookeeper.ClientCnxn - Session 0x16bf9936fb00012 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2182. Will not attempt to authenticate using SASL (unknown error)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 15423ms for sessionid 0x16bf9936fb00012, closing socket connection and attempting reconnect
+[main-SendThread(106.14.5.254:2181)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2181. Will not attempt to authenticate using SASL (unknown error)
+[main-SendThread(106.14.5.254:2181)] WARN org.apache.zookeeper.ClientCnxn - Session 0x16bf9936fb00012 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[main-SendThread(106.14.5.254:2182)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server 106.14.5.254/106.14.5.254:2182. Will not attempt to authenticate using SASL (unknown error)
+
+-------------
