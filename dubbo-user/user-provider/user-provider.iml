@@ -16,7 +16,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.5" level="project" />
     <orderEntry type="module" module-name="user-api" />
     <orderEntry type="module" module-name="order-api" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
@@ -89,7 +88,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_71/lib/jconsole.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_144/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -98,7 +97,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_71/lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_144/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
